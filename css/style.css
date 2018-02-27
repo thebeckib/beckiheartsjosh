@@ -5313,8 +5313,8 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
 
 #home::before {
   background-color: #343c44;
-  -webkit-opacity: 0.85;
-  -moz-opacity: 0.85;
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
   opacity: 0.7;
 }
 
