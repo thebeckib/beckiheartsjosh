@@ -1,0 +1,32 @@
+# beckiheartsjosh
+Mockup of vanilla site for @beckibuddin
+
+## Local development
+* Clone this repo: `git clone git@github.com:DeckOfPandas/beckiheartsjosh.git`
+* Set up Compass to build style.css from the scss folder --> `compass watch` using the config.rb file I've included
+* Open file `index.html` in your browser  
+* Play with things
+* Use Developer mode in Chrome a lot
+* Push changes back to this repo: `git push origin master`
+
+## Deployment
+* Files are hosted on @DeckOfPandas's private server  
+* Log in, and go to correct folder  
+* Get the changes: `git pull origin master`  
+* Admire in self-congratulatory manner
+
+## Things that might be useful to know
+* @DeckOfPandas hasn't changed much text, and there are numerous typos etc from the template
+* Styling from the template is in scss/theme/ -- don't change these (not all of them are in there yet, but _base.scss is the main one and that's done)
+* If you want to change the base template, then overwrite the classes
+* Some parameters such as colors have been pulled out of the template, and are in scss/_variables.scss
+* @DeckOfPandas's work in progress is in scss/_sandbox.scss, and this could eventually be split out into e.g. _titles.scss, _dividers.scss etc, or possibly even the 'proper' way (i.e. according to the Sass documentaion)
+* The RSVP form isn't supposed to work yet
+* The Google maps API isn't supposed to work yet
+* The instagram and twitter feed in the gallery aren't supposed to work yet
+
+## Helllllp
+* Force-refresh a lot 
+* Turn Compass off and on again 
+* Google
+* Ask @DeckOfPandas (totally totally fine)
