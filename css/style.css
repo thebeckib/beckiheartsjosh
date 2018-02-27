@@ -1,4 +1,7 @@
 /*
+	THEME COLORS
+*/
+/*
 * Author: Wisely Themes
 * Author URI: http://themeforest.net/user/wiselythemes
 * Theme Name: Lilac
@@ -5308,23 +5311,371 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
   content: "f";
 }
 
-#home {
-  position: relative;
-  padding-bottom: 0px;
-  min-height: 200px;
-  background: transparent;
-  padding-top: 200px;
-  text-align: center;
-}
 #home::before {
+  background-color: #343c44;
+  -webkit-opacity: 0.85;
+  -moz-opacity: 0.85;
+  opacity: 0.7;
+}
+
+.quote-fullwidth {
+  background-image: url("../images/a-total-solar-eclipse-1113799_1920.jpg");
+}
+
+#home::before {
+  background-color: #343c44;
+}
+
+.bg-color {
+  background-color: #343c44;
+}
+
+.bg-color-overlay {
+  position: relative;
+}
+.bg-color-overlay::before {
+  background: #343c44;
+}
+
+.bg-color-overlay-50 {
+  position: relative;
+}
+.bg-color-overlay-50::before {
   content: "";
   width: 100%;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #73627b;
-  -webkit-opacity: 0.85;
-  -moz-opacity: 0.85;
+  background: #343c44;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
   opacity: 0.5;
+}
+.bg-color-overlay-50 ::selection, .bg-color-overlay-50 ::-moz-selection {
+  background: #fff;
+  color: #ad9fb3;
+}
+
+.bg-color-overlay-70 {
+  position: relative;
+}
+.bg-color-overlay-70::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #343c44;
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+.bg-color-overlay-70 ::selection, .bg-color-overlay-70 ::-moz-selection {
+  background: #fff;
+  color: #ad9fb3;
+}
+
+.divider-bottom-2.divider-bg-color::after {
+  background-color: #343c44;
+}
+.divider-bottom-2.divider-pattern.divider-bg-color::before {
+  background-color: #343c44;
+}
+
+.divider-bottom-2-180 {
+  padding-bottom: 872px;
+}
+.divider-bottom-2-180::after {
+  content: "";
+  width: 100%;
+  height: 782px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-image: url("../images/divider_2_180.png");
+  z-index: -1;
+}
+.divider-bottom-2-180.divider-bg-color::after {
+  background-color: #ad9fb3;
+}
+.divider-bottom-2-180.divider-pattern::before {
+  content: "";
+  width: 100%;
+  height: 782px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-repeat: repeat;
+  background-position: top center;
+  background-image: url("../images/pattern.png");
+  z-index: -1;
+}
+.divider-bottom-2-180.divider-pattern.divider-bg-color::after {
+  background-color: transparent;
+}
+.divider-bottom-2-180.divider-pattern.divider-bg-color::before {
+  background-color: #ad9fb3;
+}
+
+.divider-bottom-5 {
+  padding-bottom: 290px;
+}
+.divider-bottom-5::after {
+  content: "";
+  width: 100%;
+  height: 241px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-image: url("../images/divider_5.png");
+  z-index: -1;
+}
+.divider-bottom-5.divider-bg-color::after {
+  background-color: #343c44;
+}
+.divider-bottom-5.divider-pattern::before {
+  content: "";
+  width: 100%;
+  height: 241px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-repeat: repeat;
+  background-position: top center;
+  background-image: url("../images/pattern.png");
+  z-index: -1;
+}
+.divider-bottom-5.divider-pattern.divider-bg-color::after {
+  background-color: transparent;
+}
+.divider-bottom-5.divider-pattern.divider-bg-color::before {
+  background-color: #343c44;
+}
+
+.divider-bottom-5-180 {
+  padding-bottom: 290px;
+}
+.divider-bottom-5-180::after {
+  content: "";
+  width: 100%;
+  height: 241px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-image: url("../images/divider_5_180.png");
+  z-index: -1;
+}
+.divider-bottom-5-180.divider-bg-color::after {
+  background-color: #343c44;
+}
+.divider-bottom-5-180.divider-pattern::before {
+  content: "";
+  width: 100%;
+  height: 241px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-repeat: repeat;
+  background-position: top center;
+  background-image: url("../images/pattern.png");
+  z-index: -1;
+}
+.divider-bottom-5-180.divider-pattern.divider-bg-color::after {
+  background-color: transparent;
+}
+.divider-bottom-5-180.divider-pattern.divider-bg-color::before {
+  background-color: #343c44;
+}
+
+/* Retina Images ***************************************************/
+@media (min-resolution: 144dpi) {
+  .divider-bottom-2-180 {
+    padding-bottom: 970px;
+  }
+  .divider-bottom-2-180::after {
+    height: 1564px;
+    background-image: url("../images/divider_2_180@2x.png");
+  }
+
+  .divider-top-2-180 {
+    padding-bottom: 480px;
+  }
+  .divider-top-2-180::before {
+    height: 482px;
+    background-image: url("../images/divider_5_180@2x.png");
+  }
+}
+.neg-top-margin {
+  margin-top: -300px;
+}
+
+.gallery-scroller li {
+  display: inline-block;
+  position: relative;
+  width: 380px;
+  height: 380px;
+  overflow: hidden;
+  padding: 0;
+  margin: -5px -3px 0 0;
+  background-color: #343c44;
+}
+.gallery-scroller li img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.gallery-scroller li > span {
+  background-color: rgba(52, 60, 68, 0.7);
+  -webkit-box-shadow: inset 0px 0px 0px 2px rgba(52, 60, 68, 0.7);
+  -moz-box-shadow: inset 0px 0px 0px 2px rgba(52, 60, 68, 0.7);
+  box-shadow: inset 0px 0px 0px 2px rgba(52, 60, 68, 0.7);
+}
+.gallery-scroller li > span i, .gallery-scroller li > span .fa {
+  color: #343c44;
+  border: 2px solid #343c44;
+}
+.gallery-scroller li > span i:hover, .gallery-scroller li > span .fa:hover {
+  background-color: #343c44;
+}
+
+#gallery {
+  background-image: url("../images/sebastian-muller-52-unsplash.jpg");
+}
+#gallery h1 {
+  color: #fff;
+}
+#gallery .section-title::before {
+  background-color: #fff;
+}
+#gallery .section-title::after {
+  background-color: #fff;
+}
+
+.timeline h3 {
+  color: #ADB1B4;
+}
+.timeline::before {
+  background: #343c44;
+}
+.timeline .event_left::before, .timeline .event_right::before {
+  background-color: #343c44;
+}
+.timeline .event_left::after, .timeline .event_right::after {
+  border: 3px solid #ADB1B4;
+}
+.timeline .event_left .event_panel, .timeline .event_right .event_panel {
+  border: 3px solid #ADB1B4;
+}
+.timeline .event_left .event_panel::before, .timeline .event_right .event_panel::before {
+  background-color: #ADB1B4;
+}
+.timeline .event_left .event_panel h3, .timeline .event_right .event_panel h3 {
+  border-bottom: 1px solid #ADB1B4;
+}
+.timeline .event_left .event_panel h3::after, .timeline .event_right .event_panel h3::after {
+  background-color: #ADB1B4;
+}
+.timeline .event_left .event_panel:hover p, .timeline .event_right .event_panel:hover p {
+  color: #1F2428;
+}
+.timeline .event_left:hover::after, .timeline .event_right:hover::after {
+  border-color: #1F2428;
+}
+.timeline .event_left:hover .event_panel, .timeline .event_right:hover .event_panel {
+  border-color: #1F2428;
+}
+.timeline .event_left:hover .event_panel::before {
+  background-color: #1F2428;
+}
+.timeline .event_left:hover .event_panel::before:h3 {
+  color: #1F2428;
+}
+.timeline .event_right:hover .event_panel::before {
+  background-color: #1F2428;
+}
+
+.event_panel h4 small {
+  color: #ADB1B4 !important;
+}
+
+.timeline-gallery .item a {
+  background-color: #5C6369;
+}
+
+.timeline_footer::after {
+  background-color: #5C6369;
+}
+.timeline_footer .punchline {
+  color: #ADB1B4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #343c44;
+}
+
+.story-elem h3 {
+  border-bottom: 1px solid #343c44;
+}
+.story-elem h3 small {
+  color: #ADB1B4;
+}
+.story-elem h3::before, .story-elem h3::after {
+  background-color: #343c44;
+}
+
+.section-title::before {
+  background-color: #343c44;
+}
+.section-title::after {
+  background-color: #343c44;
+}
+
+#footer.bg-color, #footer.bg-color-overlay {
+  border-top: none;
+  background-color: #343c44;
+}
+#footer.bg-color::before, #footer.bg-color-overlay::before {
+  background-color: #343c44;
+}
+#footer.bg-color a, #footer.bg-color-overlay a {
+  color: #ADB1B4;
+}
+#footer.bg-color a:hover, #footer.bg-color-overlay a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#preloader > div.heartbeat:not(:required):after, #preloader > div.heartbeat:not(:required):before {
+  background: #A09EBB !important;
+}
+
+.heartbeat:not(:required):after {
+  background: #A09EBB;
+}
+.heartbeat:not(:required):before {
+  background: #A09EBB;
+}
+
+.wedding-gifts li {
+  border: 1px solid #A09EBB;
+}
+.wedding-gifts li:hover::before {
+  background-color: rgba(160, 158, 187, 0.9);
+}
+
+.btn-color {
+  background: #A09EBB !important;
+}
+
+.btn.ribbon.btn-color::after, .btn.ribbon.btn-color::before {
+  color: #fff !important;
 }
