@@ -5335,46 +5335,25 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
 }
 .bg-color-overlay::before {
   background: #343c44;
-}
-
-.bg-color-overlay-50 {
-  position: relative;
-}
-.bg-color-overlay-50::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: #343c44;
-  -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
-  opacity: 0.5;
-}
-.bg-color-overlay-50 ::selection, .bg-color-overlay-50 ::-moz-selection {
-  background: #fff;
-  color: #ad9fb3;
-}
-
-.bg-color-overlay-70 {
-  position: relative;
-}
-.bg-color-overlay-70::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: #343c44;
   -webkit-opacity: 0.7;
   -moz-opacity: 0.7;
   opacity: 0.7;
 }
-.bg-color-overlay-70 ::selection, .bg-color-overlay-70 ::-moz-selection {
-  background: #fff;
-  color: #ad9fb3;
+
+.bg-color-overlay-light {
+  position: relative;
+}
+.bg-color-overlay-light::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #A09EBB;
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.4;
 }
 
 .divider-bottom-2.divider-bg-color::after {
@@ -5619,7 +5598,7 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #343c44;
+  color: #5C6369;
 }
 
 .story-elem h3 {
@@ -5678,4 +5657,52 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn.ribbon.btn-color::after, .btn.ribbon.btn-color::before {
   color: #fff !important;
+}
+
+.navbar-nav > li > a {
+  color: #343c44;
+}
+
+.nav .open > a {
+  color: #A09EBB;
+}
+.nav .open > a:hover, .nav .open > a:focus {
+  color: #A09EBB;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  color: #A09EBB;
+}
+
+.navbar-nav > li > a.active {
+  color: #A09EBB;
+}
+.navbar-nav .open > .dropdown-menu {
+  display: block;
+}
+
+#nav-mobile-btn {
+  background-color: #5C6369;
+}
+#nav-mobile-btn:active, #nav-mobile-btn:hover {
+  background-color: #A09EBB;
+}
+
+.nav-mobile {
+  background: #F7F8FA;
+}
+.nav-mobile > i:hover, .nav-mobile > i:active {
+  color: #A09EBB;
+  background-color: #f1f3f6;
+}
+.nav-mobile h2 {
+  color: #343c44;
+}
+.nav-mobile h2 i {
+  margin-right: 10px;
+}
+.nav-mobile a {
+  color: #5C6369;
+}
+.nav-mobile a:hover {
+  color: #ad9fb3;
 }
