@@ -16,6 +16,7 @@ Mockup of vanilla site for @beckibuddin
 * Admire in self-congratulatory manner
 
 ## Things that might be useful to know
+* The template site as-sold is here: http://www.wiselythemes.com/html/lilac/
 * @DeckOfPandas hasn't changed much text, and there are numerous typos etc from the template
 * Styling from the template is in scss/theme/ -- don't change these (not all of them are in there yet, but _base.scss is the main one and that's done)
 * If you want to change the base template, then overwrite the classes
