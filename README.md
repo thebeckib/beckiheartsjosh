@@ -2,7 +2,7 @@
 Mockup of vanilla site for @beckibuddin
 
 ## Local development
-* Clone this repo: `git clone git@github.com:DeckOfPandas/beckiheartsjosh.git`
+* Clone the repo (either this one or your own fork)
 * Set up Compass to build style.css from the scss folder --> `compass watch` using the config.rb file I've included
 * Open file `index.html` in your browser  
 * Play with things
