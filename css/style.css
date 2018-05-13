@@ -43,7 +43,7 @@ a:focus {
   outline: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, hbecki, hjosh {
   margin: 0;
   color: #ad9fb3;
   text-rendering: optimizelegibility;
@@ -78,6 +78,7 @@ h4 {
 h5 {
   font-size: 12pt;
 }
+
 
 /* #General
 ================================================== */
@@ -181,6 +182,9 @@ input, button, select, textarea {
 #preloader > div.heartbeat:not(:required):after, #preloader > div.heartbeat:not(:required):before {
   background: #ad9fb3 !important;
 }
+
+
+
 
 @-webkit-keyframes heartbeat {
   0% {
@@ -1320,11 +1324,16 @@ fieldset[disabled] .btn.ribbon.active {
 
 .no-padding-top {
   padding-top: 0;
+  padding-bottom: 0;
+
 }
 
-.no-padding-bottom {
-  padding-bottom: 0;
+.no-padding-top1 {
+  
+  padding-top: 0;
 }
+
+
 
 .pattern {
   background-image: url("../images/pattern.png");
@@ -1333,6 +1342,8 @@ fieldset[disabled] .btn.ribbon.active {
 .divider-bottom-1 {
   padding-bottom: 290px !important;
 }
+
+
 .divider-bottom-1::after {
   content: "";
   width: 100%;
@@ -1999,6 +2010,25 @@ fieldset[disabled] .btn.ribbon.active {
   -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
 }
 
+.cute-photo {
+    background-image: url("../images/beckijosh.jpg");
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote-fullwidth {
+    background-image: url("../images/moonbig2.jpg");
+    font-size: 38pt;
+    line-height: 38pt;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+
 /* #OUR STORY
 ================================================== */
 .story-elem {
@@ -2180,14 +2210,16 @@ fieldset[disabled] .btn.ribbon.active {
 }
 
 .quote-fullwidth {
-  background-image: url("../images/quote-img.jpg");
-  font-size: 38pt;
-  line-height: 38pt;
-  padding: 100px 0;
-  text-align: center;
-  color: #fff;
-  font-family: 'Dancing Script', cursive;
+    background-image: url("../images/moonbig2.jpg");
+    font-size: 38pt;
+    line-height: 38pt;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
 }
+
+
 
 /* #Timeline
 ================================================== */
@@ -5319,22 +5351,22 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
 }
 
 .quote-fullwidth {
-  background-image: url("../images/a-total-solar-eclipse-1113799_1920.jpg");
+  background-image: url("../images/moonbig2.jpg");
 }
 
 #home::before {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 
 .bg-color {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 
 .bg-color-overlay {
   position: relative;
 }
 .bg-color-overlay::before {
-  background: #343c44;
+  background: #0b3f93;
   -webkit-opacity: 0.7;
   -moz-opacity: 0.7;
   opacity: 0.7;
@@ -5357,10 +5389,10 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
 }
 
 .divider-bottom-2.divider-bg-color::after {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 .divider-bottom-2.divider-pattern.divider-bg-color::before {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 
 .divider-bottom-2-180 {
@@ -5416,7 +5448,7 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
   z-index: -1;
 }
 .divider-bottom-5.divider-bg-color::after {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 .divider-bottom-5.divider-pattern::before {
   content: "";
@@ -5434,7 +5466,7 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
   background-color: transparent;
 }
 .divider-bottom-5.divider-pattern.divider-bg-color::before {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 
 .divider-bottom-5-180 {
@@ -5453,7 +5485,7 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
   z-index: -1;
 }
 .divider-bottom-5-180.divider-bg-color::after {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 .divider-bottom-5-180.divider-pattern::before {
   content: "";
@@ -5471,7 +5503,7 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
   background-color: transparent;
 }
 .divider-bottom-5-180.divider-pattern.divider-bg-color::before {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 
 /* Retina Images ***************************************************/
@@ -5504,7 +5536,7 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
   overflow: hidden;
   padding: 0;
   margin: -5px -3px 0 0;
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 .gallery-scroller li img {
   width: 100%;
@@ -5519,11 +5551,11 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
   box-shadow: inset 0px 0px 0px 2px rgba(52, 60, 68, 0.7);
 }
 .gallery-scroller li > span i, .gallery-scroller li > span .fa {
-  color: #343c44;
-  border: 2px solid #343c44;
+  color: #0b3f93;
+  border: 2px solid #0b3f93;
 }
 .gallery-scroller li > span i:hover, .gallery-scroller li > span .fa:hover {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 
 #gallery {
@@ -5543,10 +5575,10 @@ div.dark_square .currentTextHolder, div.lilac #pp_full_res .pp_inline, div.dark_
   color: #ADB1B4;
 }
 .timeline::before {
-  background: #343c44;
+  background: #0b3f93;
 }
 .timeline .event_left::before, .timeline .event_right::before {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 .timeline .event_left::after, .timeline .event_right::after {
   border: 3px solid #ADB1B4;
@@ -5602,28 +5634,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .story-elem h3 {
-  border-bottom: 1px solid #343c44;
+  border-bottom: 1px solid #0b3f93;
 }
 .story-elem h3 small {
   color: #ADB1B4;
 }
 .story-elem h3::before, .story-elem h3::after {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 
 .section-title::before {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 .section-title::after {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 
 #footer.bg-color, #footer.bg-color-overlay {
   border-top: none;
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 #footer.bg-color::before, #footer.bg-color-overlay::before {
-  background-color: #343c44;
+  background-color: #0b3f93;
 }
 #footer.bg-color a, #footer.bg-color-overlay a {
   color: #ADB1B4;
@@ -5660,7 +5692,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-nav > li > a {
-  color: #343c44;
+  color: #0b3f93;
 }
 
 .nav .open > a {
@@ -5695,7 +5727,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f1f3f6;
 }
 .nav-mobile h2 {
-  color: #343c44;
+  color: #0b3f93;
 }
 .nav-mobile h2 i {
   margin-right: 10px;
