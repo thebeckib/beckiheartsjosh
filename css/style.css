@@ -2020,13 +2020,30 @@ fieldset[disabled] .btn.ribbon.active {
 }
 
 .quote-fullwidth {
-    background-image: url("../images/moonbig2.jpg");
+    background-image: url("../images/beckijosh.jpg");
     font-size: 38pt;
     line-height: 38pt;
     padding: 100px 0;
     text-align: center;
     color: #fff;
     font-family: 'Dancing Script', cursive;
+}
+
+.quote-fullwidth2 {
+    background-image: url("../images/beckijosh.jpg");
+    font-size: 60pt;
+    line-height: 250px;
+    height: 500px;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
 
 /* #OUR STORY
